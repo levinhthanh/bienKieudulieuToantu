@@ -6,6 +6,6 @@ function hamConvert(){
     if(loaitienOutput==loaitienInput)  sotienOutput=sotienInput;
     if((loaitienInput=="VND") &&( loaitienOutput=="USD")){sotienOutput=sotienInput/23000;}
     if((loaitienInput=="USD") &&( loaitienOutput=="VND")) {sotienOutput=sotienInput*23000;}
-    document.getElementById('tiendoi').innerHTML='Result = '+sotienOutput;  
+    document.getElementById('tiendoi').innerHTML='Result = '+sotienOutput + ' '+loaitienOutput;  
                      
 }
